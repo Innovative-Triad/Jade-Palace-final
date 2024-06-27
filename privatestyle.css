@@ -1,49 +1,67 @@
 
 .body{
     background-color: #8b0000;
+    padding-top: 10rem;
     
 }
-.priv-container{
+
+.priv-container {
     align-items: center;
-    padding: 10rem 9% 2rem;
+    padding: 5rem 5%;
+    max-width: 1000px; /* Adjust the maximum width as per your design */
+    margin: 0 auto; /* Center the container horizontally */
+    min-height: 100vh;
 }
-.display-3{
+.display-3 {
     text-align: center;
     font-family: 'Grenze';
     color: #ffd700;
+}
 
-}
-label{
-    font-family: 'lato';
+label {
+    font-family: 'Lato', sans-serif;
     color: #e0e0e0;
-    
+    font-size: 1.6rem;
+    text-align: left;
 }
-input.form-control, select.form-select, textarea.form-control{
+input.form-control,
+select.form-select,
+textarea.form-control {
     background-color: #ffd700;
-    border:none;
+    border: none;
+    width: 100%;
+    padding: 1rem;
+    font-size: 1.6rem;
+    color: var(--rich-red);
+    background: var(--golden);
+    border-radius: .8rem;
+    margin: .7rem 0;
 }
+
+
 .form-control::placeholder,
 textarea::placeholder {
-    color: #8b0000; /* Choose your desired color */
-    opacity: 1; /* Ensure the color is fully applied */
+    color: #8b0000;
+    opacity: 1;
 }
 
-button.custom-btn{
+
+button.custom-btn {
     background: #ffd700;
     border-radius: 2rem;
-    color:#8b0000;
-    font-family: 'lato';
+    color: #8b0000;
+    font-family: 'Lato', sans-serif;
 }
-button.custom-btn:hover{
-    background:#ffd700;
+button.custom-btn:hover {
+    background: #ffd700;
     box-shadow: 0 0 1rem #ffd700;
-    transform:scale(1.05);
-    font-family: 'lato';
-    color:#8b0000;
+    transform: scale(1.05);
+    color: #8b0000;
 }
-button.custom-btn:active{
-    background:#ffd700;
-    color:#e0e0e0;
+
+button.custom-btn:active {
+    background: #ffd700;
+    color: #e0e0e0;
 }
 
 section{
@@ -57,14 +75,20 @@ section{
     left: 0;
     width: 100%;
     padding: 2rem 9%;
-    background: var(--bgcolor);
     display: flex;
     justify-content: space-between;
     align-items: center;
     z-index: 100;
-    background-color:  rgba(0, 0, 0, .2);;
+    background-color:  rgba(0, 0, 0, .2);
+    
 }
-
+.priv-container form{
+    
+        max-width: 80rem;
+        margin: 1rem auto;
+        text-align: center;
+        margin-bottom: 3rem;
+}
 
 .header.sticky {
     border-bottom: .1rem solid rgba(0, 0, 0, .2);
@@ -177,18 +201,27 @@ body {
 }
 
 @media (max-width: 768px) {
-    .line2 .col, .line3 .col {
+    .priv-container {
+        padding: 3rem 3%;
+    }
+
+    .line2 .col,
+    .line3 .col {
         flex: 0 0 100%;
         max-width: 100%;
     }
-    .line2, .line3 {
+
+    .line2,
+    .line3 {
         flex-direction: column;
     }
-    .line2 .col, .line3 .col, .line3 textarea {
+
+    .line2 .col,
+    .line3 .col,
+    .line3 textarea {
         margin-bottom: 1rem;
     }
 }
-
 
 
 footer {
@@ -276,13 +309,14 @@ button.btn-footer{
     justify-content: space-between;
     align-items: center;
     padding: 1rem 2rem;
-    background-color: #121212;
+   
 }
 
 .footer-text p {
     font-size: 1rem;
     color: #e0e0e0;
     text-align: center;
+    
 }
 
 .top{
@@ -355,6 +389,11 @@ button.btn-footer:active{
         padding-bottom: 7rem;
     }
 
+}
+@media (max-width: 576px) {
+    .priv-container {
+        padding: 2rem 2%;
+    }
 }
 
 @media (max-width: 768px) {
