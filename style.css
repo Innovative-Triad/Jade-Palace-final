@@ -58,9 +58,10 @@ html, body {
 /* Existing styles */
 .h2 {
     color: #e0e0e0;
-    background-color: #121212;
+    background-color: #8b0000;
     margin-top: 100px;
     margin-bottom: 100px;
+    font-family: 'lato';
 }
 
 .home_page {
@@ -74,7 +75,7 @@ html, body {
 
 .section5 {
     padding: 100px;
-    background-color: #121212;
+    background-color: #8b0000;
 }
 
 .transparent {
@@ -83,7 +84,7 @@ html, body {
 }
 
 .section2, .section3, .section4 {
-    background-color: #121212;
+    background-color: #8b0000;
     width: 100vw;
     height: 100vh;
 }
@@ -266,7 +267,7 @@ footer {
     display: flex;
     justify-content: space-between;
     padding: 2rem;
-    background-color: #121212;
+    background-color: #12121292;
     color: #e0e0e0;
     font-family: "Lato", Arial, sans-serif;
     flex-wrap: wrap;
