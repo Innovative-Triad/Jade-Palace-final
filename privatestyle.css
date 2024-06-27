@@ -63,6 +63,18 @@ button.custom-btn:active {
     background: #ffd700;
     color: #e0e0e0;
 }
+.reserve button.custom-btn{
+    display: inline-block;
+    padding: 1rem 2.8rem;
+    background: var(--golden);
+    border-radius: 4rem;
+    box-shadow: 0 0 1rem var(--green);
+    font-size: 1.6rem;
+    color: var(--rich-red);
+    letter-spacing: .1rem;
+    font-weight: 600;
+    transition: .5s ease;
+}
 
 section{
     min-height: 100vh;
@@ -309,7 +321,12 @@ button.btn-footer{
     justify-content: space-between;
     align-items: center;
     padding: 1rem 2rem;
-   
+    background-color: #12121292;
+    border-radius: 8px;
+    color: #e0e0e0;
+    font-family: "Lato",Arial, sans-serif;
+    flex-wrap: wrap; /* Allow content to wrap */
+    margin-top: auto;
 }
 
 .footer-text p {
@@ -372,24 +389,7 @@ button.btn-footer:active{
     }
 }
 
-@media (max-width: 991px) {
-    .header {
-        padding: 2rem 3%;
-    }
 
-    section {
-        padding: 10rem 3% 2rem;
-    }
-
-    .skills{
-        padding-bottom: 7rem;
-    }
-
-    .education{
-        padding-bottom: 7rem;
-    }
-
-}
 @media (max-width: 576px) {
     .priv-container {
         padding: 2rem 2%;
@@ -463,63 +463,5 @@ button.btn-footer:active{
     }
 }
 
-@media (max-width: 450px) {
-    html {
-        font-size: 50%;
-    }
 
-    .contact form .input-box input{
-        width: 100%;
-    }
 
-    .skill-container img{
-        width: 100px;
-        height: 100px
-    }
-}
-
-@media (max-width: 768px) {
-    footer {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .form-section, .contact-section, .footer-bottom {
-        flex: 0 0 100%;
-        max-width: 100%;
-        text-align: center;
-    }
-
-    .contact-section {
-        padding-left: 0;
-    }
-
-    .form {
-        flex-direction: column;
-    }
-
-    .email {
-        margin-right: 0;
-        margin-bottom: 1rem; /* Add space below input */
-        width: 100%; /* Make the input take full width */
-    }
-
-    .socmed ul {
-        padding: 0;
-        text-align: center;
-    }
-
-    .socmed li {
-        display: block;
-        margin: 1rem 0;
-    }
-
-    .footer-bottom {
-        flex-direction: column;
-        padding: 1rem;
-    }
-
-    .footer-text {
-        margin-bottom: 1rem; /* Add space below footer text */
-    }
-}
