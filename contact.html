@@ -6,10 +6,15 @@
     <title>Contact</title>
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="contact_style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Grenze:wght@300;400&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/192b98bb0e.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header class="header">
-        <a href="landingpage.html" class="logo"><img src="JP logo.png"></a>
+        <a href="contact.html" class="logo"><img src="JP logo.png"></a>
 
         <i class='bx bx-menu' id="menu-icon"></i>
 
@@ -44,13 +49,40 @@
         </form>
     </section>
 
-    <footer class="footer">
-        <div class="footer-text">
-            <p>Copyright &copy; 2023 by Richa, Sapthami and Shravani | All Rights Reserved.</p>
+    <footer class="bg-121212">
+        <div class="form-section">
+            <div class="news">
+                <label for="email" class="form-label grenze-light">Subscribe to Our Newsletter</label>
+                <div class="form">
+                    <input type="email" class="email" id="email" placeholder="Email" required>
+                    <button type="submit" class="btn">Submit</button>
+                </div>
+            </div>
         </div>
-
-        <div class="footer-iconTop">
-            <a href="#menu"><i class="bx bx-up-arrow-alt"></i></a>
+        <div class="contact-section bg-121212">
+            <div class="socmed">
+                <ul>
+                    <li class="insta"><i class="fa-brands fa-instagram"></i>Instagram</li>
+                    <li class="facebook"><i class="fa-brands fa-facebook"></i>Facebook</li>
+                    <li class="X"><i class="fa-brands fa-x-twitter"></i>Twitter/X</li>
+                </ul>
+            </div>
+            <div class="address">
+                <p>
+                    500 Terry Francine Street,<br>
+                    San Francisco<br>
+                    123-456-7890<br>
+                    info@mysite.com
+                </p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="footer-text">
+                <p>Copyright &copy; 2023 by Richa, Sapthami and Shravani | All Rights Reserved.</p>
+            </div>
+            <div class="footer-iconTop">
+                <a href="landingpage.html"><i class="bx bx-up-arrow-alt"></i></a>
+            </div>
         </div>
     </footer>
     <!--Java script input-->
