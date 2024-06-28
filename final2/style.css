@@ -89,6 +89,7 @@ html, body {
     font-size: 4.5rem;
     color: var(--golden);
     margin-top: 5rem;
+    
 }
 
 .header img{
@@ -118,7 +119,7 @@ html, body {
 .Welcome {
     font-size: xx-large;
 }
-
+s
 
 
 
@@ -129,10 +130,11 @@ html, body {
     height: 100vh;
 }
 
-.heading{
+.heading2{
     font-family: grenze;
-    font-size: 70px;
+    font-size: 60px;
     color: var(--golden);
+    text-align: center;
 }
 
 
@@ -173,6 +175,7 @@ html, body {
     color: white;
     border-radius: 50%;
     border-color: white;
+    margin-left: 200px;
 }
 
 .reservations .rightText{
@@ -274,6 +277,9 @@ img {
 
 .container2 {
     background-color: #121212;
+}
+.container2 img{
+    height: 300px;
 }
 
 .image-container_crew {
@@ -484,317 +490,109 @@ footer .btn:hover{
     color: #ffd700;
     font-family: Lato;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Media Queries */
-@media (max-width: 1200px) {
-    html {
-        font-size: 55%;
-    }
-    section {
-        padding-left: 0;
-        margin-top: 100px;
-    }
-    .menup{
-        margin-top: 50px;
-    }
-    .menup p{
-        font-size: 20px;
-    }
-    .reservations{
-        margin-top: 100px;
-    }
-    .reservations p{
-        font-size: 25px;
-    }
-    .review p{
-        font-size: 25px;
-    }
+/* media queries */
+@media screen and (max-width:1200px ) {
+   
+    .news{
+        margin-top: 600px;
+       }
+       .contact-section{
+        margin-top: 600px;
+       }
+       .h2{
+        font-size:x-small;
+       }
 }
-
-@media (max-width: 991px) {
-    .header {
-        padding: 2rem 3%;
-    }
-
-    .navbar a {
-        margin-left: 2rem;
-        font-size: 1.5rem;
-    }
-
-    section {
-        padding-left: 0;
-        margin-top: 100px;
-    }
-    .menu{
-        margin-top: 50px;
-    }
-    .menu p{
-        font-size: 20px;
-    }
-    .reservations{
-        margin-top: 100px;
-    }
-    .reservations p{
-        font-size: 25px;
-    }
-    .review p{
-        font-size: 20px;
-    }
-
-    section {
-        padding: 10rem 3% 2rem;
-    }
-
-    .container {
-        margin-left: 0;
-    }
-
-    .rightText {
-        font-size: x-large;
-        margin-left: 0;
-    }
-
-    .leftImg img, .rightImg img {
-        height: 150px;
-        width: 150px;
-        margin: 20px auto;
-        display: block;
-    }
-}
-
-@media (max-width: 768px) {
-    #menu-icon {
-        display: block;
-    }
-    .navbar {
-        position: absolute;
-        top: 100%;
-        left: 0;
-        width: 100%;
-        background: var(--bgcolor);
-        border-top: .1rem solid rgba(0, 0, 0, .2);
-        flex-direction: column;
-        clip-path: circle(0 at center top);
-        transition: .3s;    
-    }
-
+@media screen and (max-width:1020px ) {
+   
     
-    .navbar a {
-        font-size: 2.5rem;
-        display: block;
-        margin: 2.5rem;
-        text-align: center;
-    }
-
-    .navbar a:hover,
-    .navbar a.active {
-        background: none;
-        color: var(--golden);
-    }
-
-    .navbar.active {
-        transform: translateY(0);
-    }
-
-    .rightText {
-        font-size: large;
-        margin-left: 0;
-    }
-
-    .leftImg img, .rightImg img {
-        height: 100px;
-        width: 100px;
-        margin: 20px auto;
-        display: block;
-    }
-    .navbar a {
-        font-size: 2.5rem;
-        display: block;
-        margin: 2.5rem;
-        text-align: center;
-    }
-
-    .navbar a:hover,
-    .navbar a.active {
-        background: none;
-        color: var(--golden);
-    }
-
-    .navbar.active {
-        transform: translateY(0);
-    }
-
-    .rightText {
-        font-size: large;
-        margin-left: 0;
-    }
-
-    .leftImg img, .rightImg img {
-        height: 400px;
-        width: 400px;
-        margin: 20px auto;
-        display: block;
-    }
+       .h2{
+        font-size: x-small;
+       }
 }
 
-@media (max-width: 576px) {
-    .header {
-        padding: 2rem 3%;
+@media screen and (max-width:975px ) {
+    .leftImg img, .rightImg img{
+        width: 80%;
+        height: 80%;
     }
-
-    section {
-        padding: 10rem 3% 2rem;
-    }
-
-    .rightText {
-        font-size: large;
-        margin-left: 0;
-    }
-
-    .leftImg img, .rightImg img {
-        height: 80px;
-        width: 80px;
-        margin: 20px auto;
-        display: block;
-    }
-
-    .image-container_crew {
-        flex-direction: column;
-        gap: 20px;
-    }
-
-    .image-container_crew img {
-        height: auto;
-    }
+    .news{
+        margin-top: 600px;
+       }
+       .contact-section{
+        margin-top: 600px;
+       }
 }
-@media (max-width: 768px) {
-    #menu-icon {
-        display: block;
-    }
+  
+/* tablets */
+@media screen and (max-width:768px ) {
+  .menup{
+    justify-content: left;
+  }
+    .leftImg img{
+    width: 60%;
+    height: 60%;
+   }
+   .rightImg img{
+    height: 300px;
+   }
+   .rightText{
+    width: 50%;
+    font-size: large;
+    height: 20%;
+   }
+   .heading{
+    font-size: 60%;
+   }
+   .xx-large{
+    font-size: large;
+   }
+   .row1{
+    height: 500px;
+   }
+   .news{
+    margin-top: 600px;
+   }
+   .contact-section{
+    margin-top: 600px;
+   }
+   .reservations{
+    height: 800px;
+   }
 
-    .navbar {
-        position: absolute;
-        top: 100%;
-        left: 0;
-        width: 100%;
-        padding: 1rem 3%;
-        background: var(--bg-color);
-        border-top: .1rem solid rgba(0, 0, 0, .2);
-        box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .2);
-        display: none;
-    }
-
-    .navbar.active {
-        display: block;
-    }
-
-    .navbar a{
-        display: block;
-        font-size: 2rem;
-        margin: 3rem 0;
-    }
 }
-
-@media (max-width: 450px) {
-    html {
-        font-size: 50%;
-    }
-
-    .contact form .input-box input{
-        width: 100%;
-    }
-}
-@media (max-width: 1200px) {
-    html {
-        font-size: 55%;
-    }
+@media screen and (max-width: 680px ) {
+    
+      .rightImg img{
+        height: 40%;
+        width: 90%;
+      }
 }
 
-@media (max-width: 991px) {
-    .header {
-        padding: 2rem 3%;
-    }
-
-    section {
-        padding: 10rem 3% 2rem;
-    }
-
-    .menu{
-        padding-bottom: 7rem;
-    }
-
-    .footer{
-        padding: 2rem 3%;
-    }
+/* mobiles */
+@media screen and (max-width: 480px ) {
+    .leftImg img{
+        width: 70%;
+        height: 80%;
+       }
+       .rightText {
+        margin-right: 10px;
+       }
+       .menup{
+        height: 650px;
+       }
+       #rbtn{
+        margin-left: 20px;
+       }
 }
 
-@media (max-width: 768px) {
-    #menu-icon{
-        display: block;
-    }
 
-    .navbar {
-        position: absolute;
-        top: 100%;
-        left: 0;
-        width: 100%;
-        padding: 1rem 3%;
-        background: var(--bg-color);
-        border-top: .1rem solid rgba(0, 0, 0, .2);
-        box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .2);
-        display: none;
-    }
 
-    .navbar.active {
-        display: block;
-    }
 
-    .navbar a{
-        display: block;
-        font-size: 2rem;
-        margin: 3rem 0;
-    }
 
-    .menu{
-        margin-bottom: 3rem;
-    }
 
-    .dish-container{
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
 
-@media (max-width: 617px){
-    .dish-container{
-        grid-template-columns: 1fr;
-    }
-}
 
-@media (max-width: 450px) {
-    html {
-        font-size: 50%;
-    }
-}
 
-@media (max-width: 365px) {
-    .footer{
-        flex-direction: column-reverse;
-    }
 
-    .footer p{
-        text-align: center;
-        margin-top: 2rem;
-    }
-}
+
