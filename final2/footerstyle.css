@@ -1,4 +1,4 @@
-footer {
+.footer {
     display: flex;
     justify-content: space-between;
     padding: 2rem;
@@ -9,6 +9,10 @@ footer {
     margin-top: auto;
     min-height: 100%;
     
+    
+}
+.footer{
+    height: 35vh;
 }
 .form-section {
     flex: 1;
